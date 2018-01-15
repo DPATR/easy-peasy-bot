@@ -93,7 +93,7 @@ controller.hears(['hello', 'hi', 'greetings'], 'direct_message',
   function(bot,message) {
     bot.reply(message,'Hello, World!');
   }
-)
+);
 
 /**
  * AN example of what could be:
